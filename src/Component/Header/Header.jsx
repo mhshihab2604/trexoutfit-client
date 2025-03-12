@@ -78,7 +78,7 @@ import { MdSupervisorAccount } from "react-icons/md";
 
 const Header = () => {
     return (
-        <nav className="navbar bg-gradient-to-r from-black via-gray-800 to-black shadow-xl px-4 py-2 fixed top-0 w-full z-50 text-white">
+        <nav className="navbar bg-gradient-to-r from-black via-gray-800 to-black shadow-xl px-4 py-2 sticky top-0 w-full z-50 text-white">
             <section className="navbar-start">
                 <details className="dropdown">
                     <summary tabIndex={0} className="btn btn-ghost lg:hidden">
